@@ -1,7 +1,7 @@
 # Playwright-JS
 # Form Submission Test Suite
 
-This is an automated test suite using Playwright to verify form submission functionality on the DemoQA practice form.
+This automated test suite uses Playwright to verify the functionality of the form submission on the DemoQA practice form.
 
 ## Prerequisites
 
@@ -22,27 +22,21 @@ cd <repository-name>
 npm install
 ```
 
-## Project Structure
-├── tests/ │ └── submitFormTest.test.js # Test file containing form submission tests ├── POM/ │ └── FormPage.js # Page Object Model for form interactions └── README.md
 
-Running Tests
+## Running Tests
 
-To run the tests:
+# To run the tests:
 npx playwright test
 
-To run tests in headed mode (with browser visible):
-npx playwright test --headed
 
-To run tests in debug mode:
-npx playwright test --debug
+## Dependencies
 
-Dependencies
+- @playwright/test: For browser automation and testing.
 
-@playwright/test: For browser automation and testing
-Additional dependencies can be found in package.json
+- Additional dependencies can be found in package.json
 
-Notes
+## Notes
 
-The test targets the URL: https://demoqa.com/automation-practice-form
-Make sure you have a stable internet connection when running the tests.
-The Page Object Model (FormPage.js) needs to be properly implemented with all required method
+- The test targets the URL: https://demoqa.com/automation-practice-form.
+
+- Make sure you have a stable internet connection when running the tests.
